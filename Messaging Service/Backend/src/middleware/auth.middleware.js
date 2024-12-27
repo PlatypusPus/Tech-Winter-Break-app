@@ -1,32 +1,32 @@
-import { JsonWebTokenError } from "jsonwebtoken";
-import jwt from "JsonWebTokenError"
-import User from "../models/user.models.js"
+import jwt from "jsonwebtoken";
+import User from "../models/user.models.js";
 
-export const ProtectRoute = async ( req, res, next) => {
+export const ProtectRoute = async (req, res, next) => {
     try {
-        const token = req.cookies.jwt
-        
-        if (!token){
-            return res.status(400),json({message:"No valid cookie"})
+        const token = req.cookies.jwt;
+
+        if (!token) {
+            return res.status(400).json({ message: "No valid cookie" });
         }
 
-        const decoded = jwt.verify(token, process.env.JWT_SECRET)
-
-        if(!decoded){
-            return res.status(400),json({message:"invalid Token"})
+        let decoded;
+        try {
+            decoded = jwt.verify(token, process.env.JWT_SECRET);
+        } catch (err) {
+            return res.status(400).json({ message: "Invalid Token" });
         }
 
         const user = await User.findById(decoded.userId).select("-password");
 
-        if(!user){
-            return res.status(400),json({message:"Ooga Booga i listen to chatgpt"})
+        if (!user) {
+            return res.status(400).json({ message: "User not found" });
         }
 
-        req.user = user
+        req.user = user;
 
-        next()
+        next();
     } catch (error) {
-        console.log("Error in protect Route Middleware");
-        res.status(400),json({message:"Internal Server error"})
+        console.log("Error in ProtectRoute Middleware", error);
+        res.status(500).json({ message: "Internal Server Error" });
     }
-}
+};

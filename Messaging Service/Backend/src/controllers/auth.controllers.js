@@ -99,3 +99,12 @@ export const updateProfile = async (req, res) => {
     }
 };
 
+export const checkAuth = (req, res ) => {
+    try {
+        res.status(400).json(req.user)
+    } catch (error) {
+        console.log("Error in checkAuth controller:",error);
+        res.status(400),json({message:"Internal Server error"})
+    }
+}
+
