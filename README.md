@@ -27,11 +27,11 @@ Check out the live version here:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/PlatypusPus/SchizoChat.git
+   git clone https://github.com/PlatypusPus/Tech-Winter-Break-app)
    ```
 2. Navigate to the project directory:
    ```bash
-   cd SchizoChat
+   cd Tech-Winter-Break-app
    ```
 3. Install dependencies:
    ```bash
@@ -59,11 +59,7 @@ We welcome contributions! To get started:
    ```
 5. Submit a pull request.
 
-## Contact
-For feedback or inquiries:<br>
-**Platypus Pus**<br>
-- GitHub: https://github.com/PlatypusPus <br>
-- Email: platypus.chat@gmail.com
+
 
 Let's chat the Schizo way!
 
