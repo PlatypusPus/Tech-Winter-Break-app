@@ -1,127 +1,69 @@
-# Tech-Winter-Break-SJEC
+# SchizoChat 💬🌀
 
-## 🚀 Introduction
+## Description
+**SchizoChat** is a dynamic and experimental chat application designed to foster creativity and free-flowing conversations. Built with modern web technologies, it allows users to engage in real-time chats while exploring an imaginative and unconventional interface.
 
-Welcome to the Tech Winter Break Challenge repository!
+## Features
+- **Instant Messaging:** Experience seamless, real-time messaging with friends or strangers.
+- **Creative Themes:** Unique visual themes inspired by surreal and abstract designs.
+- **Customizable Chat Bubbles:** Personalize your chat environment to reflect your mood.
+- **Mood-Based Suggestions:** AI-driven responses based on emotional tone.
+- **Anonymity Mode:** Engage in discussions without revealing personal information.
 
-This is your space to showcase your creativity and technical prowess. Whether you're building an application or a web app, this platform will help you collaborate, innovate, and share your project with others.
+## Technologies Used
+- Frontend: HTML, CSS, React.js
+- Backend: Node.js
+- Database: MongoDB
+- Hosting: Render
 
-### What problem does your project solve?
-Think about the issue your project addresses.
+## Working
+- https://drive.google.com/file/d/1nOM6DgsTTv3_5ayOd6cQXawWQHgEWN5g/view?usp=drivesdk
 
-### Who is it for?
-Identify your target audience.
 
-### Why is it useful?
-Explain the impact and utility of your project.
+## Live Demo
+Check out the live version here:
+- https://schizo-vuhd.onrender.com/signup
 
----
-
-## ✨ Features
-
-- List the main features of your project.
-- Highlight any unique or standout aspects.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! To get started:
-
-1. **Organize Your Project**:
-   - For applications, create a folder named `apps`.
-   - For web apps, create a folder named `web`.
-   - Add your project files inside the respective folder.
-
-2. **Showcase Your Work**:
-   - Include a `README.md` file within your folder, detailing your project and a YouTube link demonstrating its features.
-
-3. **Follow the Steps Below**:
-
-   - Fork this repository.
-   - Clone your forked repository locally:
-     ```bash
-     git clone https://github.com/yourusername/Tech-Winter-Break-SJEC.git
-     ```
-   - Navigate to the repository directory:
-     ```bash
-     cd Tech-Winter-Break-SJEC
-     ```
-   - Create a new branch:
-     ```bash
-     git checkout -b feature/your-feature-name
-     ```
-   - Commit your changes:
-     ```bash
-     git commit -m 'Add [your project name] in [apps/web]'
-     ```
-   - Push to your branch:
-     ```bash
-     git push origin feature/your-feature-name
-     ```
-   - Open a Pull Request with a clear description of your project.
-
-4. **Report Issues**:
-   If you encounter any problems or bugs, let us know by sharing:
-   - What you were trying to achieve.
-   - The steps you followed.
-   - Any error messages or unexpected behaviors.
-
-This helps us improve the project for everyone!
-
----
-
-## 🛠️ Installation
-
-To run the project locally, follow these steps:
-
-1. Clone this repository:
+## Installation
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Tech-Winter-Break-SJEC.git
+   git clone https://github.com/PlatypusPus/SchizoChat.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Tech-Winter-Break-SJEC
+   cd SchizoChat
    ```
 3. Install dependencies:
    ```bash
-   <add your installation steps here>
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
    ```
 
----
+## Contributing
+We welcome contributions! To get started:
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add feature: description"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Submit a pull request.
 
-## 📖 Usage
+## Contact
+For feedback or inquiries:<br>
+**Platypus Pus**<br>
+- GitHub: https://github.com/PlatypusPus <br>
+- Email: platypus.chat@gmail.com
 
-Add instructions or examples for how users can utilize your project:
-```bash
-<add example usage commands or snippets>
-```
+Let's chat the Schizo way!
 
-Link to more detailed documentation if available.
-
----
-
-### 🆘 Need Help? Ask it in GDG discord Server
-
-**How to get help:**
-1. Clearly describe your issue or question.
-2. Share relevant details (e.g., error messages, code snippets, or steps you've taken).
-3. Be respectful and patient while waiting for responses.
-
-We’re here to support you! 😊
-
-
----
-
-## 🌟 Acknowledgments
-
-- Mention any tools, libraries, or resources you used.
-- Give credit where it’s due.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
