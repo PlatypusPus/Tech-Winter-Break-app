@@ -6,8 +6,6 @@
 ## Features
 - **Instant Messaging:** Experience seamless, real-time messaging with friends or strangers.
 - **Creative Themes:** Unique visual themes inspired by surreal and abstract designs.
-- **Customizable Chat Bubbles:** Personalize your chat environment to reflect your mood.
-- **Mood-Based Suggestions:** AI-driven responses based on emotional tone.
 - **Anonymity Mode:** Engage in discussions without revealing personal information.
 
 ## Technologies Used
