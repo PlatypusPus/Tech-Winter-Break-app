@@ -25,7 +25,7 @@ Check out the live version here:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/PlatypusPus/Tech-Winter-Break-app)
+   git clone https://github.com/PlatypusPus/Tech-Winter-Break-app
    ```
 2. Navigate to the project directory:
    ```bash
